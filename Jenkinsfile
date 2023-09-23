@@ -3,7 +3,7 @@ agent any
   stages{
     stage ('Build'){
       steps{
-        echo "Building feature-1.0"
+        echo "Building feature-1.1"
       }
     }
   }
