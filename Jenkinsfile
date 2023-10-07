@@ -1,8 +1,8 @@
 pipeline{
-    # Where your pipeline to be executed?
+    // Where your pipeline to be executed?
     agent any
 
-    # Different Stages
+    // Different Stages
     stages{
         stage ('Check Out'){
           steps{
