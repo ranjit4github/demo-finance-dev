@@ -2,6 +2,9 @@
 
 pipeline{
 agent any
+  environment{
+    demoVar="TestVar"
+  }
   stages{
     stage ('Build'){
       steps{
