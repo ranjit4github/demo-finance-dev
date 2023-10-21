@@ -10,5 +10,12 @@ agent any
         }
       }
     }
+    stage ('Upload'){
+      steps{
+        script{
+          nexusUpload()
+        }
+      }
+    }
   }
 }
