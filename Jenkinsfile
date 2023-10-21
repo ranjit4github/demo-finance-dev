@@ -17,5 +17,12 @@ agent any
         }
       }
     }
+    stage ('Deploy'){
+      steps{
+        script{
+          deploy.deployDemo()
+        }
+      }
+    }
   }
 }
