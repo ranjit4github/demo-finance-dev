@@ -5,6 +5,7 @@ agent any
       steps{
         echo "Building release-1.0"
         echo "Release Branch is triggerred."
+	echo "Restriction Test"
       }
     }
   }
